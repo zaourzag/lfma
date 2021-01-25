@@ -33,7 +33,7 @@ jobs:
 
   e2e-chrome:
 
-    runs-on: self-hosted
+    runs-on: self
 
     steps:
     - uses: actions/checkout@v1
