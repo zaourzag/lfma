@@ -7,7 +7,7 @@ on:
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: linux
     strategy:
       matrix:
         node-version: [8.x, 10.x, 12.x]
@@ -31,7 +31,7 @@ jobs:
 
   e2e-chrome:
 
-    runs-on: windows-latest
+    runs-on: Windows
 
     steps:
     - uses: actions/checkout@v1
